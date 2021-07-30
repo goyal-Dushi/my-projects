@@ -1,0 +1,81 @@
+.flipCard {
+  height: 500px;
+  width: 350px;
+  position: relative;
+  border-radius: 15px;
+  margin: "15px 0px";
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+  .flipCardFront {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 33;
+    background-repeat: no-repeat;
+    background-size: contain;
+    backface-visibility: hidden;
+  }
+
+  .flipCardBack {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transform: rotateY(180deg);
+
+    .backImgBox {
+      width: 100%;
+      text-align: center;
+      padding: 10px 0px;
+
+      img {
+        height: 250px;
+        width: 180px;
+        margin: auto;
+      }
+    }
+
+    h3 {
+      margin-left: 10px;
+      font-size: 1.8rem;
+      text-align: left;
+      margin-top: 15px;
+    }
+
+    ul li {
+      list-style: none;
+      margin-left: 10px;
+      line-height: 1.25;
+      font-size: 1.4rem;
+    }
+
+    .flipBtnContainer {
+      margin-top: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .flipBtnWish,
+    .flipBtnCart {
+      padding: 7px 15px;
+      font-size: 1rem;
+      border-radius: 3px;
+      border: none;
+      background-color: darkgrey;
+      color: white;
+      text-transform: capitalize;
+      &:hover {
+        background-color: black;
+      }
+    }
+  }
+
+  &:hover {
+    transform: rotateY(180deg);
+    box-shadow: 8px 8px 12px 7px rgba(0, 0, 0, 0.2);
+  }
+}
