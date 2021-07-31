@@ -8,7 +8,7 @@ import HomePage from "./pages/Home";
 
 function App() {
   return (
-    <Router>
+    <Router basename={"https://goyal-dushi.github.io/my-projects/"}>
       <Switch>
         <Route path={"/"} exact component={HomePage} />
         <Route path={"/glassmorphism"} component={Glassmorphism} />
