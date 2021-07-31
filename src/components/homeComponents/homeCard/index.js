@@ -37,7 +37,7 @@ export default function HomeCard(props) {
           </Typography>
         </CardContent>
         <CardActions>
-          <Link to={{ pathname: props.navLink }}>
+          <Link target={"_blank"} to={{ pathname: props.navLink }}>
             <Button variant={"contained"} color={"primary"}>
               {"View Project"}
             </Button>
