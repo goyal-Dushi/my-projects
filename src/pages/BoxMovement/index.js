@@ -1,5 +1,5 @@
 import { Button, Container, CssBaseline } from "@material-ui/core";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import BlackBox from "../../components/boxMovement/box";
 import "./index.css";
 
@@ -8,6 +8,10 @@ export default function BoxMovement() {
   const [leftMove, setLeftMove] = useState("0");
   const [topMove, setTopMove] = useState("0");
   const [bottomMove, setBottomMove] = useState(null);
+
+  useEffect(() => {
+    document.title = "Box Movement";
+  }, []);
 
   function forwardFunction() {
     if (leftMove === "0" && topMove === "0") {
