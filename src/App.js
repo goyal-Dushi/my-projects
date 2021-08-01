@@ -3,12 +3,12 @@ import Glassmorphism from "./pages/Glassmorphism";
 import FlipEffect from "./pages/FlipEffect";
 import BoxMovement from "./pages/BoxMovement";
 import "./index.scss";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import HomePage from "./pages/Home";
 
 function App() {
   return (
-    <Router basename={"https://goyal-dushi.github.io/my-projects/"}>
+    <Router basename={"/"}>
       <Switch>
         <Route path={"/"} exact component={HomePage} />
         <Route path={"/glassmorphism"} component={Glassmorphism} />
