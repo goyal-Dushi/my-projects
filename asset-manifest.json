@@ -1,20 +1,26 @@
 {
   "files": {
     "main.css": "/my-projects/static/css/main.85eab3f8.chunk.css",
-    "main.js": "/my-projects/static/js/main.20b35bac.chunk.js",
-    "main.js.map": "/my-projects/static/js/main.20b35bac.chunk.js.map",
+    "main.js": "/my-projects/static/js/main.2733b10e.chunk.js",
+    "main.js.map": "/my-projects/static/js/main.2733b10e.chunk.js.map",
     "runtime-main.js": "/my-projects/static/js/runtime-main.d0170780.js",
     "runtime-main.js.map": "/my-projects/static/js/runtime-main.d0170780.js.map",
     "static/js/2.bae956ed.chunk.js": "/my-projects/static/js/2.bae956ed.chunk.js",
     "static/js/2.bae956ed.chunk.js.map": "/my-projects/static/js/2.bae956ed.chunk.js.map",
     "index.html": "/my-projects/index.html",
     "static/css/main.85eab3f8.chunk.css.map": "/my-projects/static/css/main.85eab3f8.chunk.css.map",
-    "static/js/2.bae956ed.chunk.js.LICENSE.txt": "/my-projects/static/js/2.bae956ed.chunk.js.LICENSE.txt"
+    "static/js/2.bae956ed.chunk.js.LICENSE.txt": "/my-projects/static/js/2.bae956ed.chunk.js.LICENSE.txt",
+    "static/media/boxMove.43d1214d.gif": "/my-projects/static/media/boxMove.43d1214d.gif",
+    "static/media/flipEffect.96f2fad3.gif": "/my-projects/static/media/flipEffect.96f2fad3.gif",
+    "static/media/formik.152b2bae.png": "/my-projects/static/media/formik.152b2bae.png",
+    "static/media/glassmorphism.47b51bcb.gif": "/my-projects/static/media/glassmorphism.47b51bcb.gif",
+    "static/media/htmlCss.88394d85.png": "/my-projects/static/media/htmlCss.88394d85.png",
+    "static/media/xcoins-1.053cb7b7.gif": "/my-projects/static/media/xcoins-1.053cb7b7.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.d0170780.js",
     "static/js/2.bae956ed.chunk.js",
     "static/css/main.85eab3f8.chunk.css",
-    "static/js/main.20b35bac.chunk.js"
+    "static/js/main.2733b10e.chunk.js"
   ]
 }
