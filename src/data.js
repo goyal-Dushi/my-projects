@@ -1,3 +1,12 @@
+import glassmorphGif from "./images/gifs/glassmorphism.gif";
+import boxMoveGif from "./images/gifs/boxMove.gif";
+import flipEffGif from "./images/gifs/flipEffect.gif";
+import xcoinGif from "./images/gifs/xcoins-1.gif";
+
+import formikImg from "./images/icons/formik.png";
+import htmlCssImg from "./images/icons/htmlCss.png";
+import reactImg from "./images/icons/react.png";
+
 export const flipData = [
   {
     id: 1,
@@ -52,8 +61,8 @@ export const homeCardData = [
     heading: "Glassmorphism",
     date: "2 May 2021",
     subheading: "Responsive design using HTML and SCSS only.",
-    imgSrc: "/images/gifs/glassmorphism.gif",
-    avatarSrc: "/images/icons/react.png",
+    imgSrc: glassmorphGif,
+    avatarSrc: reactImg,
     linkTo: "/glassmorphism",
   },
   {
@@ -61,8 +70,8 @@ export const homeCardData = [
     heading: "Box Movement",
     date: "1 June 2021",
     subheading: "Responsive design and functions using Material UI and React",
-    imgSrc: "/images/gifs/boxMove.gif",
-    avatarSrc: "/images/icons/react.png",
+    imgSrc: boxMoveGif,
+    avatarSrc: reactImg,
     linkTo: "/boxMovement",
   },
   {
@@ -70,8 +79,8 @@ export const homeCardData = [
     heading: "Flip Effect",
     date: "17 April 2021",
     subheading: "Responsive flip Effect design using HTML & CSS",
-    imgSrc: "/images/gifs/flipEffect.gif",
-    avatarSrc: "/images/icons/htmlCss.png",
+    imgSrc: flipEffGif,
+    avatarSrc: htmlCssImg,
     linkTo: "/flipEffect",
   },
   {
@@ -79,9 +88,8 @@ export const homeCardData = [
     heading: "X Coins Forms",
     date: "16 June 2021",
     subheading: "Performed Form validation using Formik with React",
-    imgSrc: "/images/gifs/xcoins-1.gif",
-    avatarSrc: "/images/icons/formik.png",
+    imgSrc: xcoinGif,
+    avatarSrc: formikImg,
     linkTo: "/xcoinsForms",
-    // linkTo: "https://goyal-dushi.github.io/X-Coins-Forms/#/",
   },
 ];
