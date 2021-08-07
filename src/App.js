@@ -16,9 +16,19 @@ function App() {
         <Route path={"/boxMovement"} component={BoxMovement} />
         <Route
           path='/xcoinsForms'
+          exact
           component={() => {
             window.location.href =
               "https://goyal-dushi.github.io/X-Coins-Forms/#/";
+            return null;
+          }}
+        />
+        <Route
+          path='/doremGispsum'
+          exact
+          component={() => {
+            window.location.href =
+              "https://goyal-dushi.github.io/dorem-gipsum/#/";
             return null;
           }}
         />
