@@ -2,6 +2,7 @@ import glassmorphGif from "./images/gifs/glassmorphism.gif";
 import boxMoveGif from "./images/gifs/boxMove.gif";
 import flipEffGif from "./images/gifs/flipEffect.gif";
 import xcoinGif from "./images/gifs/xcoins-1.gif";
+import doremGif from "./images/gifs/dorem.gif";
 
 import formikImg from "./images/icons/formik.png";
 import htmlCssImg from "./images/icons/htmlCss.png";
@@ -91,5 +92,15 @@ export const homeCardData = [
     imgSrc: xcoinGif,
     avatarSrc: formikImg,
     linkTo: "/xcoinsForms",
+  },
+  {
+    id: 5,
+    heading: "Dorem Gipsum",
+    date: "6 Aug 2021",
+    subheading:
+      "Data fetching form External API with dark and light theme toggler!",
+    imgSrc: doremGif,
+    avatarSrc: reactImg,
+    linkTo: "/doremGispsum",
   },
 ];
