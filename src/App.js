@@ -32,6 +32,15 @@ function App() {
             return null;
           }}
         />
+        <Route
+          path='/exerciseMern'
+          exact
+          component={() => {
+            window.location.href =
+              "https://github.com/goyal-Dushi/exercise-tracker";
+            return null;
+          }}
+        />
       </Switch>
     </Router>
   );
