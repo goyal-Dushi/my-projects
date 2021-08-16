@@ -3,10 +3,13 @@ import boxMoveGif from "./images/gifs/boxMove.gif";
 import flipEffGif from "./images/gifs/flipEffect.gif";
 import xcoinGif from "./images/gifs/xcoins-1.gif";
 import doremGif from "./images/gifs/dorem.gif";
+import mernExerciseGif from "./images/gifs/exercise-mern.gif";
 
 import formikImg from "./images/icons/formik.png";
 import htmlCssImg from "./images/icons/htmlCss.png";
 import reactImg from "./images/icons/react.png";
+import mernImg from "./images/icons/mern.png";
+// import nodeImg from "./images/icons/nodejs.jpg";
 
 export const flipData = [
   {
@@ -102,5 +105,15 @@ export const homeCardData = [
     imgSrc: doremGif,
     avatarSrc: reactImg,
     linkTo: "/doremGispsum",
+  },
+  {
+    id: 6,
+    heading: "Exercise/Routine Tracker",
+    date: "16 Aug 2021",
+    subheading:
+      "A MERN application performing all the CRUD functionality to keep track of user's exercises.API handling and database querying.",
+    imgSrc: mernExerciseGif,
+    avatarSrc: mernImg,
+    linkTo: "/exerciseMern",
   },
 ];
