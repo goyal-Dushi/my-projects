@@ -34,34 +34,38 @@ export default function HomePage() {
   }, []);
 
   return (
-    <Container maxWidth={"lg"} style={{ paddingBottom: "30px" }}>
+    <>
       <AppBar position={"sticky"}>
-        <Toolbar className={classes.flexCenterBtw}>
-          <Typography gutterBottom variant={"h5"} color={"textPrimary"}>
-            {"My Projects"}
-          </Typography>
-          <IconButton
-            target={"_blank"}
-            href={"https://github.com/goyal-Dushi/my-projects"}
-            edge={"end"}
-            aria-label={"github"}>
-            <GitHubIcon fontSize={"large"} />
-          </IconButton>
-        </Toolbar>
+        <Container maxWidth={"lg"}>
+          <Toolbar className={classes.flexCenterBtw}>
+            <Typography gutterBottom variant={"h5"} color={"textPrimary"}>
+              {"My Projects"}
+            </Typography>
+            <IconButton
+              target={"_blank"}
+              href={"https://github.com/goyal-Dushi/my-projects"}
+              edge={"end"}
+              aria-label={"github"}>
+              <GitHubIcon fontSize={"large"} />
+            </IconButton>
+          </Toolbar>
+        </Container>
       </AppBar>
-      <Box className={classes.flexWrapCenterEven} width={"100%"}>
-        {homeCardData.map((item) => (
-          <HomeCard
-            key={item.id}
-            iconSrc={item.avatarSrc}
-            title={item.heading}
-            subtitle={item.date}
-            mediaSrc={item.imgSrc}
-            content={item.subheading}
-            navLink={item.linkTo}
-          />
-        ))}
-      </Box>
-    </Container>
+      <Container maxWidth={"lg"} style={{ paddingBottom: "30px" }}>
+        <Box className={classes.flexWrapCenterEven} width={"100%"}>
+          {homeCardData.map((item) => (
+            <HomeCard
+              key={item.id}
+              iconSrc={item.avatarSrc}
+              title={item.heading}
+              subtitle={item.date}
+              mediaSrc={item.imgSrc}
+              content={item.subheading}
+              navLink={item.linkTo}
+            />
+          ))}
+        </Box>
+      </Container>
+    </>
   );
 }
