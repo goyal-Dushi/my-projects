@@ -41,6 +41,14 @@ function App() {
             return null;
           }}
         />
+        <Route
+          path='/pwa'
+          exact
+          component={() => {
+            window.location.href = "https://dgweather.netlify.app/";
+            return null;
+          }}
+        />
       </Switch>
     </Router>
   );
