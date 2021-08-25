@@ -4,6 +4,7 @@ import flipEffGif from "./images/gifs/flipEffect.gif";
 import xcoinGif from "./images/gifs/xcoins-1.gif";
 import doremGif from "./images/gifs/dorem.gif";
 import mernExerciseGif from "./images/gifs/exercise-mern.gif";
+import pwaWeatherGif from "./images/gifs/pwa-weather.gif";
 
 import formikImg from "./images/icons/formik.png";
 import htmlCssImg from "./images/icons/htmlCss.png";
@@ -66,7 +67,7 @@ export const homeCardData = [
     date: "2 May 2021",
     subheading: "Responsive design using HTML and SCSS only.",
     imgSrc: glassmorphGif,
-    avatarSrc: reactImg,
+    avatarSrc: htmlCssImg,
     linkTo: "/glassmorphism",
   },
   {
@@ -115,5 +116,15 @@ export const homeCardData = [
     imgSrc: mernExerciseGif,
     avatarSrc: mernImg,
     linkTo: "/exerciseMern",
+  },
+  {
+    id: 7,
+    heading: "PWA : Weather app",
+    date: "22 Aug 2021",
+    subheading:
+      "A Progressive Web application in React, able to work offline, completely responsive made using Bootstrap, having theme toggler and deployed using Netlify",
+    imgSrc: pwaWeatherGif,
+    avatarSrc: reactImg,
+    linkTo: "/pwa",
   },
 ];
