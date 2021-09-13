@@ -1,16 +1,9 @@
 import React, { useEffect } from "react";
-import {
-  Box,
-  Container,
-  Typography,
-  makeStyles,
-  AppBar,
-  Toolbar,
-  IconButton,
-} from "@material-ui/core";
+import { Box, Container, makeStyles } from "@material-ui/core";
 import { homeCardData } from "../../data";
-import GitHubIcon from "@material-ui/icons/GitHub";
 import HomeCard from "../../components/homeComponents/homeCard";
+import Footer from "../../components/homeComponents/footer";
+import HomeNavbar from "../../components/homeComponents/navbar";
 
 const useStyles = makeStyles({
   flexWrapCenterEven: {
@@ -18,11 +11,6 @@ const useStyles = makeStyles({
     flexWrap: "wrap",
     alignItems: "center",
     justifyContent: "space-evenly",
-  },
-  flexCenterBtw: {
-    display: "flex",
-    width: "100%",
-    justifyContent: "space-between",
   },
 });
 
@@ -35,23 +23,10 @@ export default function HomePage() {
 
   return (
     <>
-      <AppBar position={"sticky"}>
-        <Container maxWidth={"lg"}>
-          <Toolbar className={classes.flexCenterBtw}>
-            <Typography gutterBottom variant={"h5"} color={"textPrimary"}>
-              {"My Projects"}
-            </Typography>
-            <IconButton
-              target={"_blank"}
-              href={"https://github.com/goyal-Dushi/my-projects"}
-              edge={"end"}
-              aria-label={"github"}>
-              <GitHubIcon fontSize={"large"} />
-            </IconButton>
-          </Toolbar>
-        </Container>
-      </AppBar>
-      <Container maxWidth={"lg"} style={{ paddingBottom: "30px" }}>
+      <HomeNavbar />
+      <Container
+        maxWidth={"lg"}
+        style={{ paddingBottom: "30px", position: "relative" }}>
         <Box className={classes.flexWrapCenterEven} width={"100%"}>
           {homeCardData.map((item) => (
             <HomeCard
@@ -66,6 +41,7 @@ export default function HomePage() {
           ))}
         </Box>
       </Container>
+      <Footer />
     </>
   );
 }
