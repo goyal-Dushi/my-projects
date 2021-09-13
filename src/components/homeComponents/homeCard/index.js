@@ -9,6 +9,7 @@ import {
   Avatar,
   CardMedia,
 } from "@material-ui/core";
+import { ArrowRightSharp } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
@@ -21,7 +22,6 @@ const useStyles = makeStyles({
 
 export default function HomeCard(props) {
   const classes = useStyles();
-
   return (
     <>
       <Card className={classes.cardStyle} raised>
@@ -38,7 +38,10 @@ export default function HomeCard(props) {
         </CardContent>
         <CardActions>
           <Link target={"_blank"} to={{ pathname: props.navLink }}>
-            <Button variant={"contained"} color={"primary"}>
+            <Button
+              endIcon={<ArrowRightSharp />}
+              variant={"contained"}
+              color={"primary"}>
               {"View Project"}
             </Button>
           </Link>
