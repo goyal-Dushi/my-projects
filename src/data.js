@@ -68,6 +68,7 @@ export const homeCardData = [
     subheading: "Responsive design using HTML and SCSS only.",
     imgSrc: glassmorphGif,
     avatarSrc: htmlCssImg,
+    tooltipText: "HTML & CSS",
     linkTo: "/glassmorphism",
   },
   {
@@ -77,6 +78,7 @@ export const homeCardData = [
     subheading: "Responsive design and functions using Material UI and React",
     imgSrc: boxMoveGif,
     avatarSrc: reactImg,
+    tooltipText: "React + Material UI",
     linkTo: "/boxMovement",
   },
   {
@@ -86,6 +88,7 @@ export const homeCardData = [
     subheading: "Responsive flip Effect design using HTML & CSS",
     imgSrc: flipEffGif,
     avatarSrc: htmlCssImg,
+    tooltipText: "HTML,CSS & JS",
     linkTo: "/flipEffect",
   },
   {
@@ -95,6 +98,7 @@ export const homeCardData = [
     subheading: "Performed Form validation using Formik with React",
     imgSrc: xcoinGif,
     avatarSrc: formikImg,
+    tooltipText: "Formik + React",
     linkTo: "/xcoinsForms",
   },
   {
@@ -105,6 +109,7 @@ export const homeCardData = [
       "Data fetching form External API with dark and light theme toggler!",
     imgSrc: doremGif,
     avatarSrc: reactImg,
+    tooltipText: "React + API",
     linkTo: "/doremGispsum",
   },
   {
@@ -115,6 +120,7 @@ export const homeCardData = [
       "A MERN application performing all the CRUD functionality to keep track of user's exercises.API handling and database querying.",
     imgSrc: mernExerciseGif,
     avatarSrc: mernImg,
+    tooltipText: "MERN Stack",
     linkTo: "/exerciseMern",
   },
   {
@@ -125,6 +131,7 @@ export const homeCardData = [
       "A Progressive Web application in React, able to work offline, completely responsive made using Bootstrap, having theme toggler and deployed using Netlify",
     imgSrc: pwaWeatherGif,
     avatarSrc: reactImg,
+    tooltipText: "PWA: React",
     linkTo: "/pwa",
   },
 ];
