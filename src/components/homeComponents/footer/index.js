@@ -1,4 +1,4 @@
-import { BottomNavigation, Typography } from "@material-ui/core";
+import { BottomNavigation, Typography, Link } from "@material-ui/core";
 import { CopyrightSharp } from "@material-ui/icons";
 
 const footerStyle = {
@@ -15,7 +15,14 @@ function Footer() {
   return (
     <BottomNavigation style={{ ...footerStyle }}>
       <Typography variant={"h6"}>
-        <CopyrightSharp /> {"Dushyant Goyal : " + date}
+        <CopyrightSharp />{" "}
+        <Link
+          href={"http://dushyantgoyal.herokuapp.com/"}
+          variant={"inherit"}
+          color={"inherit"}>
+          {"Dushyant Goyal"}
+        </Link>
+        {": " + date}
       </Typography>
     </BottomNavigation>
   );
