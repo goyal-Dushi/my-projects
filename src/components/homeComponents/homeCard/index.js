@@ -3,9 +3,11 @@ import {
   CardHeader,
   CardContent,
   Typography,
+  Tooltip,
   CardActions,
   Button,
   makeStyles,
+  withStyles,
   Avatar,
   CardMedia,
 } from "@material-ui/core";
@@ -20,13 +22,26 @@ const useStyles = makeStyles({
   },
 });
 
+const HtmlTooltip = withStyles((theme) => ({
+  tooltip: {
+    backgroundColor: "#3f51b5",
+    color: "#ffffff",
+    fontSize: "20px",
+    width: "fit-content",
+  },
+}))(Tooltip);
+
 export default function HomeCard(props) {
   const classes = useStyles();
   return (
     <>
       <Card className={classes.cardStyle} raised>
         <CardHeader
-          avatar={<Avatar src={props.iconSrc} />}
+          avatar={
+            <HtmlTooltip arrow title={props.tooltipText}>
+              <Avatar src={props.iconSrc} />
+            </HtmlTooltip>
+          }
           title={props.title}
           subheader={props.subtitle}
         />

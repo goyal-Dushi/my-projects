@@ -35,6 +35,7 @@ export default function HomePage() {
               title={item.heading}
               subtitle={item.date}
               mediaSrc={item.imgSrc}
+              tooltipText={item.tooltipText}
               content={item.subheading}
               navLink={item.linkTo}
             />
