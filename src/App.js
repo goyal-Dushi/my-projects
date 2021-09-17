@@ -49,6 +49,14 @@ function App() {
             return null;
           }}
         />
+        <Route
+          path='/bookStore'
+          exact
+          component={() => {
+            window.location.href = "https://github.com/goyal-Dushi/book-store";
+            return null;
+          }}
+        />
       </Switch>
     </Router>
   );
