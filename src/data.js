@@ -5,6 +5,7 @@ import xcoinGif from "./images/gifs/xcoins-1.gif";
 import doremGif from "./images/gifs/dorem.gif";
 import mernExerciseGif from "./images/gifs/exercise-mern.gif";
 import pwaWeatherGif from "./images/gifs/pwa-weather.gif";
+import bookStoreGif from "./images/gifs/bookStore_mern.gif";
 
 import formikImg from "./images/icons/formik.png";
 import htmlCssImg from "./images/icons/htmlCss.png";
@@ -133,5 +134,16 @@ export const homeCardData = [
     avatarSrc: reactImg,
     tooltipText: "PWA: React",
     linkTo: "/pwa",
+  },
+  {
+    id: 8,
+    heading: "Ecommerce: Book Store",
+    date: "14 Sept 2021",
+    subheading:
+      "A Full stack (MERN) web appication with authentication and session management using Passportjs and password encryption using Bcrypt.js.",
+    imgSrc: bookStoreGif,
+    avatarSrc: mernImg,
+    tooltipText: "MERN stack",
+    linkTo: "/bookStore",
   },
 ];
