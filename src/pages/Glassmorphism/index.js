@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Card from "../../components/glassmorphism/card";
-import { glassData } from "../../data";
+import { glassData } from "../../data/glassData";
 import "./index.scss";
 
 function Glassmorhphism() {

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./index.scss";
 import FlipCard from "../../components/flipeffect/flipcard";
-import { flipData } from "../../data";
+import { flipData } from "../../data/flipData";
 
 function FlipEffect() {
   useEffect(() => {

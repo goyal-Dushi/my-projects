@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Box, Container, makeStyles } from "@material-ui/core";
-import { homeCardData } from "../../data";
+import { homeCardData } from "../../data/projectData";
 import HomeCard from "../../components/homeComponents/homeCard";
 import Footer from "../../components/homeComponents/footer";
 import HomeNavbar from "../../components/homeComponents/navbar";
@@ -28,7 +28,7 @@ export default function HomePage() {
         maxWidth={"lg"}
         style={{ paddingBottom: "30px", position: "relative" }}>
         <Box className={classes.flexWrapCenterEven} width={"100%"}>
-          {homeCardData.map((item) => (
+          {homeCardData?.map((item) => (
             <HomeCard
               key={item.id}
               iconSrc={item.avatarSrc}
