@@ -2,34 +2,22 @@
 
 ## Overview 
 
-This site lists all the projects that I have worked upon and currently going to work on.
-My motive is to list all the projects that I work upon here throughtout my journey as a web developer.
+Listing all the projects I would be working on throughout my journey as a software developer.
 
-## Please don't just fork the repo, do leave a ⭐
+## Don't just fork the repo, do leave a ⭐
 
-# Table of content
-* [Getting Started](#getting-started-with-create-react-app)
+# Table of content 📑
+* [Getting Started](#getting-started)
 * [Contribution Guidelines](#contribution-guidelines)
 
-# Getting Started with Create React App
+# Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-###  `npm install`
-
-Run the above command after navigating the the project dir to install all the dependencies
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1) Fork the repo by clicking the Fork button in the top right corner.
+2) Run **`git clone https://github.com/goyal-Dushi/my-projects.git`**
+3) After cloning to the local repo, navigate to the repo 
+4) Run **`npm install`** to install all the dependencies 
+5) **`npm start`** to run the application  
 
 ### `npm test`
 
@@ -37,6 +25,6 @@ Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 # Contribution Guidelines
-1) Raise an issue before making a contribution or comment `'interested'` if want to work on a particular listed issue
-2) After assignement, clone the repo and install all the dependencies
-3) Make sure to make a new branch for working on the issue `(no PR accepted on the main/master branch)`
+1) Raise an issue before making a contribution or comment `'interested'` if want to work on an issue
+2) Make sure to make a new branch for working on the issue 
+ ### `(no PR accepted on the main/master branch)` ❎
