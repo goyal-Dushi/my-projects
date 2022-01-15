@@ -1,16 +1,17 @@
-import glassmorphGif from "../images/gifs/glassmorphism.gif";
-import boxMoveGif from "../images/gifs/boxMove.gif";
-import flipEffGif from "../images/gifs/flipEffect.gif";
-import xcoinGif from "../images/gifs/xcoins-1.gif";
-import doremGif from "../images/gifs/dorem.gif";
-import mernExerciseGif from "../images/gifs/exercise-mern.gif";
-import pwaWeatherGif from "../images/gifs/pwa-weather.gif";
-import bookStoreGif from "../images/gifs/bookStore_mern.gif";
+import glassmorphGif from "../assets/gifs/glassmorphism.gif";
+import boxMoveGif from "../assets/gifs/boxMove.gif";
+import flipEffGif from "../assets/gifs/flipEffect.gif";
+import xcoinGif from "../assets/gifs/xcoins-1.gif";
+import doremGif from "../assets/gifs/dorem.gif";
+import mernExerciseGif from "../assets/gifs/exercise-mern.gif";
+import pwaWeatherGif from "../assets/gifs/pwa-weather.gif";
+import bookStoreGif from "../assets/gifs/bookStore_mern.gif";
+import libcompareGif from "../assets/gifs/libcompare.gif";
 
-import formikImg from "../images/icons/formik.png";
-import htmlCssImg from "../images/icons/htmlCss.png";
-import reactImg from "../images/icons/react.png";
-import mernImg from "../images/icons/mern.png";
+import formikImg from "../assets/icons/formik.png";
+import htmlCssImg from "../assets/icons/htmlCss.png";
+import reactImg from "../assets/icons/react.png";
+import mernImg from "../assets/icons/mern.png";
 
 export const homeCardData = [
   {
@@ -96,5 +97,16 @@ export const homeCardData = [
     avatarSrc: mernImg,
     tooltipText: "MERN stack",
     linkTo: "/bookStore",
+  },
+  {
+    id: 9,
+    heading: "LibCompare",
+    date: "4 Jan 2022",
+    subheading:
+      "A form of documentation for all Frontend Developers who want to compare and evaluate various styling libraries that could be used with React",
+    imgSrc: libcompareGif,
+    avatarSrc: reactImg,
+    tooltipText: "React",
+    linkTo: "/libcompare",
   },
 ];

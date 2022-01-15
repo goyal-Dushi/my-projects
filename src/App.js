@@ -57,6 +57,14 @@ function App() {
             return null;
           }}
         />
+        <Route
+          path='/libcompare'
+          exact
+          component={() => {
+            window.location.href = "https://libcompare.vercel.app/";
+            return null;
+          }}
+        />
       </Switch>
     </Router>
   );
