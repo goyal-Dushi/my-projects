@@ -17,7 +17,7 @@ import { Link } from "react-router-dom";
 const useStyles = makeStyles({
   cardStyle: {
     maxWidth: "380px",
-    maxHeight: "350px",
+    maxHeight: "max-content",
     margin: "15px 3px",
   },
 });
