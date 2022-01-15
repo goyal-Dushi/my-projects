@@ -8,6 +8,7 @@ const footerStyle = {
   justifyContent: "center",
   backgroundColor: "#3f51b5",
   color: "#ffffff",
+  verticalAlign: "text-bottom",
 };
 
 function Footer() {
