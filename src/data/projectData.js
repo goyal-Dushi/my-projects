@@ -1,17 +1,17 @@
-import glassmorphGif from "../assets/gifs/glassmorphism.gif";
-import boxMoveGif from "../assets/gifs/boxMove.gif";
-import flipEffGif from "../assets/gifs/flipEffect.gif";
-import xcoinGif from "../assets/gifs/xcoins-1.gif";
-import doremGif from "../assets/gifs/dorem.gif";
-import mernExerciseGif from "../assets/gifs/exercise-mern.gif";
-import pwaWeatherGif from "../assets/gifs/pwa-weather.gif";
-import bookStoreGif from "../assets/gifs/bookStore_mern.gif";
-import libcompareGif from "../assets/gifs/libcompare.gif";
+import glassmorphGif from "../assets/gifs/glassmorphism.webm";
+import boxMoveGif from "../assets/gifs/boxMove.webm";
+import flipEffGif from "../assets/gifs/flipEffect.webm";
+import xcoinGif from "../assets/gifs/xcoins.webm";
+import doremGif from "../assets/gifs/dorem.webm";
+import mernExerciseGif from "../assets/gifs/exercise-mern.webm";
+import pwaWeatherGif from "../assets/gifs/pwa-weather.webm";
+import bookStoreGif from "../assets/gifs/bookStore_mern.webm";
+import libcompareGif from "../assets/gifs/libcompare.webm";
 
-import formikImg from "../assets/icons/formik.png";
-import htmlCssImg from "../assets/icons/htmlCss.png";
-import reactImg from "../assets/icons/react.png";
-import mernImg from "../assets/icons/mern.png";
+import formikImg from "../assets/icons/formik.webp";
+import htmlCssImg from "../assets/icons/htmlCss.webp";
+import reactImg from "../assets/icons/react.webp";
+import mernImg from "../assets/icons/mern.webp";
 
 export const homeCardData = [
   {
