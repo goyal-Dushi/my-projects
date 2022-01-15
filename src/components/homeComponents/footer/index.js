@@ -18,6 +18,7 @@ function Footer() {
       <Typography variant={"h6"}>
         <CopyrightSharp />{" "}
         <Link
+          rel={"noopener"}
           href={"http://dushyantgoyal.herokuapp.com/"}
           variant={"inherit"}
           color={"inherit"}>

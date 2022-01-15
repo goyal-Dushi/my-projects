@@ -26,6 +26,7 @@ function HomeNavbar() {
           <Typography variant={"h5"}>{"My Projects"}</Typography>
           <IconButton
             target={"_blank"}
+            rel={"noreferrer noopener"}
             href={"https://github.com/goyal-Dushi/my-projects"}
             edge={"end"}
             aria-label={"github"}>
