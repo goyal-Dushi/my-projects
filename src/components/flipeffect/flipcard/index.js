@@ -3,8 +3,8 @@ import "./index.scss";
 
 function FlipCard(props) {
   return (
-    <div className={"flipCard"}>
-      <div className={"flipCardFront"}>
+    <div role={"presentation"} className={"flipCard"}>
+      <div role={"img"} className={"flipCardFront"}>
         <img
           alt={"phone-front-img"}
           src={props.src}
@@ -12,7 +12,7 @@ function FlipCard(props) {
           width={"100%"}
         />
       </div>
-      <div className={"flipCardBack"}>
+      <div role={"contentinfo"} className={"flipCardBack"}>
         <div className={"backImgBox"}>
           <img src={props.src} alt={"phone-back-img"} />
         </div>
