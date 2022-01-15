@@ -31,28 +31,42 @@ const HtmlTooltip = withStyles((theme) => ({
   },
 }))(Tooltip);
 
-export default function HomeCard(props) {
+export default function HomeCard({
+  tooltipText,
+  iconSrc,
+  title,
+  subtitle,
+  mediaSrc,
+  content,
+  navLink,
+}) {
   const classes = useStyles();
   return (
     <>
       <Card className={classes.cardStyle} raised>
         <CardHeader
           avatar={
-            <HtmlTooltip arrow title={props.tooltipText}>
-              <Avatar src={props.iconSrc} />
+            <HtmlTooltip arrow title={tooltipText}>
+              <Avatar alt={"techStack-icon"} src={iconSrc} />
             </HtmlTooltip>
           }
-          title={props.title}
-          subheader={props.subtitle}
+          title={title}
+          subheader={subtitle}
         />
-        <CardMedia style={{ height: "120px" }} image={props.mediaSrc} />
+        <CardMedia
+          style={{ height: "120px" }}
+          component={"iframe"}
+          role={"img"}
+          allow={"autoPlay"}
+          image={mediaSrc + "?autoplay=1&mute"}
+        />
         <CardContent>
           <Typography variant={"subtitle2"} color={"textSecondary"}>
-            {props.content}
+            {content}
           </Typography>
         </CardContent>
         <CardActions>
-          <Link target={"_blank"} to={{ pathname: props.navLink }}>
+          <Link target={"_blank"} to={{ pathname: navLink }}>
             <Button
               endIcon={<ArrowRightSharp />}
               variant={"contained"}
