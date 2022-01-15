@@ -23,9 +23,7 @@ function HomeNavbar() {
     <AppBar style={{ color: "#ffffff" }} position={"sticky"}>
       <Container maxWidth={"lg"}>
         <Toolbar className={classes.flexCenterBtw}>
-          <Typography gutterBottom variant={"h5"}>
-            {"My Projects"}
-          </Typography>
+          <Typography variant={"h5"}>{"My Projects"}</Typography>
           <IconButton
             target={"_blank"}
             href={"https://github.com/goyal-Dushi/my-projects"}
