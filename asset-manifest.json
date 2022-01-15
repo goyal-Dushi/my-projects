@@ -1,24 +1,26 @@
 {
   "files": {
     "main.css": "/my-projects/static/css/main.cb60ebd5.css",
-    "main.js": "/my-projects/static/js/main.60af43d0.js",
-    "static/media/dorem.gif": "/my-projects/static/media/dorem.bd03cfc415b19dc1023c.gif",
-    "static/media/libcompare.gif": "/my-projects/static/media/libcompare.55815851ebc6109b5291.gif",
-    "static/media/pwa-weather.gif": "/my-projects/static/media/pwa-weather.99d5880905eb7334981e.gif",
-    "static/media/flipEffect.gif": "/my-projects/static/media/flipEffect.96f2fad3b0504beb91cc.gif",
-    "static/media/glassmorphism.gif": "/my-projects/static/media/glassmorphism.47b51bcb44ea0e7301b3.gif",
-    "static/media/xcoins-1.gif": "/my-projects/static/media/xcoins-1.053cb7b7173286ace175.gif",
-    "static/media/exercise-mern.gif": "/my-projects/static/media/exercise-mern.885285d0ff80c6edca1f.gif",
-    "static/media/bookStore_mern.gif": "/my-projects/static/media/bookStore_mern.e8a21480b955e39c203f.gif",
-    "static/media/boxMove.gif": "/my-projects/static/media/boxMove.43d1214d14af94c396c7.gif",
-    "static/media/htmlCss.png": "/my-projects/static/media/htmlCss.88394d859e2bed67db5b.png",
-    "static/media/formik.png": "/my-projects/static/media/formik.152b2baeb69fb22eaeec.png",
+    "main.js": "/my-projects/static/js/main.064d603a.js",
+    "static/media/dorem.webm": "/my-projects/static/media/dorem.ba97996f43ba7ce7b522.webm",
+    "static/media/libcompare.webm": "/my-projects/static/media/libcompare.d44f4eaea8967f8ae538.webm",
+    "static/media/bookStore_mern.webm": "/my-projects/static/media/bookStore_mern.a6ef40a8e95a35d89489.webm",
+    "static/media/exercise-mern.webm": "/my-projects/static/media/exercise-mern.dbcb901f4da7e154be27.webm",
+    "static/media/pwa-weather.webm": "/my-projects/static/media/pwa-weather.cf2a03761532d3accd6f.webm",
+    "static/media/xcoins.webm": "/my-projects/static/media/xcoins.e2940853f4eed234dc46.webm",
+    "static/media/flipEffect.webm": "/my-projects/static/media/flipEffect.cfd43b067d1c4df9abc0.webm",
+    "static/media/glassmorphism.webm": "/my-projects/static/media/glassmorphism.a78b6788c110c7ba17b5.webm",
+    "static/media/boxMove.webm": "/my-projects/static/media/boxMove.7f5707d1bcb89cb63903.webm",
+    "static/media/htmlCss.webp": "/my-projects/static/media/htmlCss.8ccf4f20bd3671f75128.webp",
+    "static/media/formik.webp": "/my-projects/static/media/formik.f48d63d9470a11168dd0.webp",
+    "static/media/mern.webp": "/my-projects/static/media/mern.085fc8cc21929731728a.webp",
+    "static/media/react.webp": "/my-projects/static/media/react.7c2bc31ad914c61075d4.webp",
     "index.html": "/my-projects/index.html",
     "main.cb60ebd5.css.map": "/my-projects/static/css/main.cb60ebd5.css.map",
-    "main.60af43d0.js.map": "/my-projects/static/js/main.60af43d0.js.map"
+    "main.064d603a.js.map": "/my-projects/static/js/main.064d603a.js.map"
   },
   "entrypoints": [
     "static/css/main.cb60ebd5.css",
-    "static/js/main.60af43d0.js"
+    "static/js/main.064d603a.js"
   ]
 }
