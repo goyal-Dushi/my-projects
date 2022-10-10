@@ -16,10 +16,16 @@ import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
   cardStyle: {
-    maxWidth: "380px",
-    maxHeight: "max-content",
+    width: "380px",
+    height: "380px",
     margin: "15px 3px",
+    position: "relative"
   },
+  actionSection: {
+    position: "absolute",
+    right: "5px",
+    bottom: "5px",
+  }
 });
 
 const HtmlTooltip = withStyles((theme) => ({
@@ -65,8 +71,8 @@ export default function HomeCard({
             {content}
           </Typography>
         </CardContent>
-        <CardActions>
-          <Link target={"_blank"} to={{ pathname: navLink }}>
+        <CardActions className={classes.actionSection}>
+          <Link target={"_blank"} style={{textDecoration: "none"}} to={{ pathname: navLink }}>
             <Button
               endIcon={<ArrowRightSharp />}
               variant={"contained"}

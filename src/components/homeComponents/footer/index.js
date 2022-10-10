@@ -15,8 +15,8 @@ function Footer() {
   const date = new Date().getFullYear();
   return (
     <BottomNavigation style={{ ...footerStyle }}>
+      <CopyrightSharp />
       <Typography variant={"h6"}>
-        <CopyrightSharp />{" "}
         <Link
           rel={"noopener"}
           href={"http://dushyantgoyal.herokuapp.com/"}
