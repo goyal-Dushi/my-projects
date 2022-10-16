@@ -60,11 +60,9 @@ export default function HomeCard({
           subheader={subtitle}
         />
         <CardMedia
-          style={{ height: "120px" }}
-          component={"iframe"}
+          style={{ height: "150px" }}
           role={"img"}
-          allow={"autoPlay"}
-          image={mediaSrc + "?autoplay=1&mute"}
+          image={mediaSrc}
         />
         <CardContent>
           <Typography variant={"subtitle2"} color={"textSecondary"}>
