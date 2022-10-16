@@ -1,29 +1,30 @@
-import glassmorphGif from "../assets/gifs/glassmorphism.webm";
-import boxMoveGif from "../assets/gifs/boxMove.webm";
-import flipEffGif from "../assets/gifs/flipEffect.webm";
-import xcoinGif from "../assets/gifs/xcoins.webm";
-import doremGif from "../assets/gifs/dorem.webm";
-import mernExerciseGif from "../assets/gifs/exercise-mern.webm";
-import pwaWeatherGif from "../assets/gifs/pwa-weather.webm";
-import bookStoreGif from "../assets/gifs/bookStore_mern.webm";
-import libcompareGif from "../assets/gifs/libcompare.webm";
+// import glassmorphGif from "../assets/gifs/glassmorphism.gif";
+import boxMoveGif from "../assets/gifs/boxMove.gif";
+// import flipEffGif from "../assets/gifs/flipEffect.gif";
+import xcoinGif from "../assets/gifs/xcoins.gif";
+import doremGif from "../assets/gifs/dorem.gif";
+import mernExerciseGif from "../assets/gifs/exercise-mern.gif";
+import pwaWeatherGif from "../assets/gifs/pwa-weather.gif";
+import bookStoreGif from "../assets/gifs/bookStore_mern.gif";
+import libcompareGif from "../assets/gifs/libcompare.gif";
 
 import formikImg from "../assets/icons/formik.webp";
-import htmlCssImg from "../assets/icons/htmlCss.webp";
+// import htmlCssImg from "../assets/icons/htmlCss.webp";
 import reactImg from "../assets/icons/react.webp";
 import mernImg from "../assets/icons/mern.webp";
+import noImg from "../assets/icons/no_img.png";
 
 export const homeCardData = [
-  {
-    id: 1,
-    heading: "Glassmorphism",
-    date: "2 May 2021",
-    subheading: "Responsive design using HTML and SCSS only.",
-    imgSrc: glassmorphGif,
-    avatarSrc: htmlCssImg,
-    tooltipText: "HTML & CSS",
-    linkTo: "/glassmorphism",
-  },
+  // {
+  //   id: 1,
+  //   heading: "Glassmorphism",
+  //   date: "2 May 2021",
+  //   subheading: "Responsive design using HTML and SCSS only.",
+  //   imgSrc: glassmorphGif,
+  //   avatarSrc: htmlCssImg,
+  //   tooltipText: "HTML & CSS",
+  //   linkTo: "/glassmorphism",
+  // },
   {
     id: 2,
     heading: "Box Movement",
@@ -34,16 +35,16 @@ export const homeCardData = [
     tooltipText: "React + Material UI",
     linkTo: "/boxMovement",
   },
-  {
-    id: 3,
-    heading: "Flip Effect",
-    date: "17 April 2021",
-    subheading: "Responsive flip Effect design using HTML & CSS",
-    imgSrc: flipEffGif,
-    avatarSrc: htmlCssImg,
-    tooltipText: "HTML,CSS & JS",
-    linkTo: "/flipEffect",
-  },
+  // {
+  //   id: 3,
+  //   heading: "Flip Effect",
+  //   date: "17 April 2021",
+  //   subheading: "Responsive flip Effect design using HTML & CSS",
+  //   imgSrc: flipEffGif,
+  //   avatarSrc: htmlCssImg,
+  //   tooltipText: "HTML,CSS & JS",
+  //   linkTo: "/flipEffect",
+  // },
   {
     id: 4,
     heading: "X Coins Forms",
@@ -108,5 +109,16 @@ export const homeCardData = [
     avatarSrc: reactImg,
     tooltipText: "React",
     linkTo: "/libcompare",
+  },
+  {
+    id: 9,
+    heading: "Frontend with React Js",
+    date: "9 Oct 2022",
+    subheading:
+      "Frontend designs and development using React Js. It is a project which consists of multiple subprojects done using React Js.",
+    imgSrc: noImg,
+    avatarSrc: reactImg,
+    tooltipText: "React",
+    linkTo: "/webDevReact",
   },
 ];
