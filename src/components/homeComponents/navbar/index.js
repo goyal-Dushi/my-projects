@@ -28,7 +28,7 @@ function HomeNavbar() {
         </Toolbar>
       </Container>
     </AppBar>
-    <div style={{ height: '100px' }} />
+    <div style={{ height: '100px' }}> </div>
     </>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
-// import Glassmorphism from "./pages/Glassmorphism";
-// import FlipEffect from "./pages/FlipEffect";
+import Glassmorphism from "./pages/Glassmorphism";
+import FlipEffect from "./pages/FlipEffect";
 import BoxMovement from "./pages/BoxMovement";
 import "./index.scss";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
@@ -11,8 +11,8 @@ function App() {
     <Router basename={"/"}>
       <Switch>
         <Route path={"/"} exact component={HomePage} />
-        {/* <Route path={"/glassmorphism"} component={Glassmorphism} /> */}
-        {/* <Route path={"/flipEffect"} component={FlipEffect} /> */}
+        <Route path={"/glassmorphism"} component={Glassmorphism} />
+        <Route path={"/flipEffect"} component={FlipEffect} />
         <Route path={"/boxMovement"} component={BoxMovement} />
         <Route
           path='/xcoinsForms'

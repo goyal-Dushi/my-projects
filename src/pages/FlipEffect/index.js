@@ -11,8 +11,8 @@ function FlipEffect() {
   return (
     <div className='flipCardWrapper'>
       <header>
-        <h1>flip cards</h1>
-        <p>choose your phones wisely</p>
+        <h1>Flip Cards</h1>
+        <p>Choose Your Phones Wisely</p>
       </header>
       <section>
         {flipData.map((item) => (
