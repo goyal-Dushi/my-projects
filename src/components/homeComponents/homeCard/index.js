@@ -6,36 +6,12 @@ import {
   Tooltip,
   CardActions,
   Button,
-  makeStyles,
-  withStyles,
   Avatar,
   CardMedia,
-} from "@material-ui/core";
-import { ArrowRightSharp } from "@material-ui/icons";
+} from "@mui/material";
+import { ArrowRightSharp } from "@mui/icons-material";
 import { Link } from "react-router-dom";
-
-const useStyles = makeStyles({
-  cardStyle: {
-    width: "380px",
-    height: "380px",
-    margin: "15px 3px",
-    position: "relative"
-  },
-  actionSection: {
-    position: "absolute",
-    right: "5px",
-    bottom: "5px",
-  }
-});
-
-const HtmlTooltip = withStyles((theme) => ({
-  tooltip: {
-    backgroundColor: "#3f51b5",
-    color: "#ffffff",
-    fontSize: "20px",
-    width: "fit-content",
-  },
-}))(Tooltip);
+import defImg from '../../../assets/icons/no_img.png'
 
 export default function HomeCard({
   tooltipText,
@@ -46,34 +22,35 @@ export default function HomeCard({
   content,
   navLink,
 }) {
-  const classes = useStyles();
+
   return (
     <>
-      <Card className={classes.cardStyle} raised>
+      <Card raised style={{ height: "380px", minWidth: '320px', maxWidth: '320px' , margin: "15px 0px", position: 'relative' }}>
         <CardHeader
           avatar={
-            <HtmlTooltip arrow title={tooltipText}>
+            <Tooltip arrow title={tooltipText}>
               <Avatar alt={"techStack-icon"} src={iconSrc} />
-            </HtmlTooltip>
+            </Tooltip>
           }
           title={title}
           subheader={subtitle}
         />
         <CardMedia
-          style={{ height: "150px" }}
+          style={{ height: "150px", backgroundSize: "contain" }}
           role={"img"}
-          image={mediaSrc}
+          image={mediaSrc || defImg}
         />
         <CardContent>
-          <Typography variant={"subtitle2"} color={"textSecondary"}>
+          <Typography variant={"caption"} color={"textSecondary"}>
             {content}
           </Typography>
         </CardContent>
-        <CardActions className={classes.actionSection}>
+        <CardActions sx={{ position: "absolute", right: '5px', bottom: '5px' }} >
           <Link target={"_blank"} style={{textDecoration: "none"}} to={{ pathname: navLink }}>
             <Button
               endIcon={<ArrowRightSharp />}
               variant={"contained"}
+              size="small"
               color={"primary"}>
               {"View Project"}
             </Button>

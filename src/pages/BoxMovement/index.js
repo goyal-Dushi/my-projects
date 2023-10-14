@@ -1,7 +1,7 @@
-import { Button, Container, CssBaseline } from "@material-ui/core";
+import { Button, Container, CssBaseline } from "@mui/material";
 import React, { useState, useEffect } from "react";
 import BlackBox from "../../components/boxMovement/box";
-import "./index.css";
+import './index.scss';
 
 export default function BoxMovement() {
   const [rightMove, setRightMove] = useState(null);

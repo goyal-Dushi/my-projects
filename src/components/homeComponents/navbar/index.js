@@ -1,29 +1,22 @@
 import {
   Container,
-  makeStyles,
   Typography,
   AppBar,
   Toolbar,
   IconButton,
-} from "@material-ui/core";
+} from "@mui/material";
 
-import GitHubIcon from "@material-ui/icons/GitHub";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
-const useStyles = makeStyles({
-  flexCenterBtw: {
-    display: "flex",
-    width: "100%",
-    justifyContent: "space-between",
-  },
-});
 
 function HomeNavbar() {
-  const classes = useStyles();
+
   return (
-    <AppBar style={{ color: "#ffffff" }} position={"sticky"}>
+    <>
+    <AppBar style={{ color: "#ffffff" }} position={"fixed"}>
       <Container maxWidth={"lg"}>
-        <Toolbar className={classes.flexCenterBtw}>
-          <Typography variant={"h5"}>{"My Projects"}</Typography>
+        <Toolbar style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+          <Typography variant={"h5"}>{"Projects"}</Typography>
           <IconButton
             target={"_blank"}
             rel={"noreferrer noopener"}
@@ -35,6 +28,8 @@ function HomeNavbar() {
         </Toolbar>
       </Container>
     </AppBar>
+    <div style={{ height: '100px' }} />
+    </>
   );
 }
 

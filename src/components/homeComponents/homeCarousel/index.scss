@@ -1,0 +1,45 @@
+.home-carousel-container{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.cards-container{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overscroll-behavior-inline: contain;
+    width: 100%;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 40px;
+
+    & > *{
+        scroll-snap-align: start;
+    }
+}
+
+.nav-btn{
+    height: 50px;
+    width: 50px;
+    position: absolute !important;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 100;
+
+    &-left{
+        left: 10px;
+    }
+
+    &-right{
+        right: 10px;
+    }
+}
