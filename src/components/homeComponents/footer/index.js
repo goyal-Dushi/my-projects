@@ -1,13 +1,13 @@
-import { BottomNavigation, Typography, Link } from "@mui/material";
+import { BottomNavigation, BottomNavigationAction, Typography, Link, AppBar } from "@mui/material";
 import CopyrightSharpIcon from '@mui/icons-material/CopyrightSharp';
 import './index.scss';
 
 function Footer() {
   const date = new Date().getFullYear();
   return (
-    <BottomNavigation color={"primary"} className="footer">
-      <CopyrightSharpIcon fontSize="sm" />
+    <AppBar position="fixed" color={"primary"} className="footer">
       <Typography variant={"h6"}>
+      <CopyrightSharpIcon fontSize="small" />
         <Link
           rel={"noopener"}
           href={"http://dushyantgoyal.herokuapp.com/"}
@@ -18,7 +18,7 @@ function Footer() {
         </Link>
         {": " + date}
       </Typography>
-    </BottomNavigation>
+    </AppBar>
   );
 }
 
