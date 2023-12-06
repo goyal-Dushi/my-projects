@@ -5,7 +5,7 @@ import './index.scss';
 function Footer() {
   const date = new Date().getFullYear();
   return (
-    <AppBar position="fixed" color={"primary"} className="footer">
+    <AppBar position="static" color={"primary"} className="footer">
       <Typography variant={"h6"}>
         <CopyrightSharpIcon fontSize="small" />
         <Link

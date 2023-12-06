@@ -33,6 +33,7 @@ export default function HomeCarousel(props) {
       <Container
         ref={carouselContainer}
         maxWidth={"lg"}
+        sx={{ margin: "40px auto" }}
         className="home-carousel-container">
         {title && (
           <Typography variant="h5" >
